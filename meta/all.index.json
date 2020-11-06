@@ -1,0 +1,1036 @@
+{
+  "ownKey": "index",
+  "childrenPages": {"kotlindoc": {
+    "ownKey": "kotlindoc",
+    "childrenPages": {"za": {
+      "ownKey": "za",
+      "childrenPages": {"ac": {
+        "ownKey": "ac",
+        "childrenPages": {"sun": {
+          "ownKey": "sun",
+          "childrenPages": {"plume": {
+            "ownKey": "plume",
+            "childrenPages": {
+              "domain": {
+                "ownKey": "domain",
+                "childrenPages": {
+                  "enums": {
+                    "ownKey": "enums",
+                    "childrenPages": {
+                      "vertexlabel": {
+                        "ownKey": "vertexlabel",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/enums/vertexlabel",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/vertexlabel"
+                          },
+                          "description": "",
+                          "title": "VertexLabel",
+                          "content": "<p>Types of vertices<\/p>META_DATA\n<p>Node to save meta data about the graph on its properties. Exactly one node of this type per graph.<\/p>\nFILE\n<p>Node representing a source file. Often also the AST root.<\/p>\nMETHOD\n<p>A method/function/procedure.<\/p>\nMETHOD_PARAMETER_IN\n<p>This node represents a formal parameter going towards the callee side.<\/p>\nMETHOD_RETURN\n<p>A formal method return.<\/p>\nMODIFIER\n<p>A modifier, e.g., static, public, private.<\/p>\nTYPE\n<p>A type which always has to reference a type declaration and may have type argument children if the referred to type declaration is a template.<\/p>\nTYPE_DECL\n<p>A type declaration.<\/p>\nBINDING\n<p>A binding of a METHOD into a TYPE_DECL.<\/p>\nTYPE_PARAMETER\n<p>Type parameter of TYPE_DECL or METHOD.<\/p>\nTYPE_ARGUMENT\n<p>Argument for a TYPE_PARAMETER that belongs to a TYPE. It binds another TYPE to a TYPE_PARAMETER.<\/p>\nMEMBER\n<p>Member of a class struct or union.<\/p>\nNAMESPACE_BLOCK\n<p>A reference to a namespace.<\/p>\nLITERAL\n<p>Literal/Constant.<\/p>\nCALL\n<p>A (method)-call.<\/p>\nLOCAL\n<p>A local variable.<\/p>\nIDENTIFIER\n<p>An arbitrary identifier/reference.<\/p>\nFIELD_IDENTIFIER\n<p>A node that represents which field is accessed in a .fieldAccess, in e.g. obj.field. The CODE part is\nused for human display and matching to MEMBER nodes. The CANONICAL_NAME is used for dataflow tracking; typically\nboth coincide. However, suppose that two fields foo and bar are a C-style union; then CODE refers to whatever the\nprogrammer wrote (obj.foo or obj.bar), but both share the same CANONICAL_NAME (e.g. GENERATED_foo_bar).<\/p>\nRETURN\n<p>A return instruction.<\/p>\nBLOCK\n<p>A structuring block in the AST.<\/p>\nARRAY_INITIALIZER\n<p>Initialization construct for arrays.<\/p>\nMETHOD_REF\n<p>Reference to a method instance.<\/p>\nTYPE_REF\n<p>Reference to a type/class.<\/p>\nCONTROL_STRUCTURE\n<p>A control structure such as if, while, or for.<\/p>\nJUMP_TARGET\n<p>A jump target made explicit in the code using a label.<\/p>\nUNKNOWN\n<p>A language-specific node.<\/p>\n"
+                        }]
+                      },
+                      "evaluationstrategy": {
+                        "ownKey": "evaluationstrategy",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/enums/evaluationstrategy",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/evaluationstrategy"
+                          },
+                          "description": "",
+                          "title": "EvaluationStrategy",
+                          "content": "<p>Evaluation strategy for function parameters and return values.<\/p>BY_REFERENCE\n<p>A parameter or return of a function is passed by reference which means an address is used behind the scenes<\/p>\nBY_SHARING\n<p>Only applicable to object parameter or return values. The pointer to the object is passed by value but the object\nitself is not copied and changes to it are thus propagated out of the method context<\/p>\nBY_VALUE\n<p>A parameter or return of a function passed by value which means a flat copy is used<\/p>\n"
+                        }]
+                      },
+                      "dispatchtype": {
+                        "ownKey": "dispatchtype",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/enums/dispatchtype",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/dispatchtype"
+                          },
+                          "description": "",
+                          "title": "DispatchType",
+                          "content": "<p>The dispatch type of a call, which is either static or dynamic.<\/p>STATIC_DISPATCH\n<p>For statically dispatched calls the call target is known before program execution<\/p>\nDYNAMIC_DISPATCH\n<p>For dynamically dispatched calls the target is determined during runtime<\/p>\n"
+                        }]
+                      },
+                      "edgelabel": {
+                        "ownKey": "edgelabel",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/enums/edgelabel",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/edgelabel"
+                          },
+                          "description": "",
+                          "title": "EdgeLabel",
+                          "content": "<p>Types of edges.<\/p>AST\n<p>Syntax tree edge.<\/p>\nCFG\n<p>Control flow edge.<\/p>\nCAPTURED_BY\n<p>Connection between a captured LOCAL and the corresponding CLOSURE_BINDING.<\/p>\nBINDS_TO\n<p>Type argument binding to a type parameter.<\/p>\nREF\n<p>A reference to e.g. a LOCAL.<\/p>\nRECEIVER\n<p>The receiver of a method call which is either an object or a pointer.<\/p>\nCONDITION\n<p>Edge from control structure node to the expression that holds the condition.<\/p>\nBINDS\n<p>Relation between TYPE_DECL and BINDING node.<\/p>\nARGUMENT\n<p>Relation between a CALL and its arguments and RETURN and the returned expression.<\/p>\nSOURCE_FILE\n<p>Source file of a node, in which its LINE_NUMBER and COLUMN_NUMBER are valid.<\/p>\n"
+                        }]
+                      },
+                      "modifiertype": {
+                        "ownKey": "modifiertype",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/enums/modifiertype",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/modifiertype"
+                          },
+                          "description": "",
+                          "title": "ModifierType",
+                          "content": "<p>Indicates the modifier which is represented by a MODIFIER node.<\/p>STATIC\n<p>The static modifier<\/p>\nPUBLIC\n<p>The public modifier<\/p>\nPROTECTED\n<p>The protected modifier<\/p>\nPRIVATE\n<p>The private modifier<\/p>\nABSTRACT\n<p>The abstract modifier<\/p>\nNATIVE\n<p>The native modifier<\/p>\nCONSTRUCTOR\n<p>The constructor modifier<\/p>\nVIRTUAL\n<p>The virtual modifier<\/p>\n"
+                        }]
+                      },
+                      "vertexbasetrait": {
+                        "ownKey": "vertexbasetrait",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/enums/vertexbasetrait",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/vertexbasetrait"
+                          },
+                          "description": "",
+                          "title": "VertexBaseTrait",
+                          "content": "<p>Common base traits for nodes.<\/p>AST_NODE\n<p>Any node that can exist in an abstract syntax tree<\/p>\nCFG_NODE\n<p>Any node that can occur as part of a control flow graph<\/p>\nDECLARATION\n<p>Declare a variable by specifying its data type and name<\/p>\nLOCAL_LIKE\n<p>Formal input parameters, locals, and identifiers<\/p>\nTRACKING_POINT\n<p>Any node that can occur in a data flow<\/p>\nEXPRESSION\n<p>Expression as a specialisation of tracking point<\/p>\nWITHIN_METHOD\n<p>Any node that can exist in a method<\/p>\nCALL_REPR\n<p>Call representation<\/p>\n"
+                        }]
+                      }
+                    },
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/domain/enums",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums"
+                      },
+                      "description": "",
+                      "title": "za.ac.sun.plume.domain.enums",
+                      "content": "<p>DispatchType<\/p>\n<p>The dispatch type of a call, which is either static or dynamic.<\/p>\nEdgeLabel\n<p>Types of edges.<\/p>\nEvaluationStrategy\n<p>Evaluation strategy for function parameters and return values.<\/p>\nModifierType\n<p>Indicates the modifier which is represented by a MODIFIER node.<\/p>\nVertexBaseTrait\n<p>Common base traits for nodes.<\/p>\nVertexLabel\n<p>Types of vertices<\/p>\n"
+                    }]
+                  },
+                  "models": {
+                    "ownKey": "models",
+                    "childrenPages": {
+                      "callreprvertex": {
+                        "ownKey": "callreprvertex",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/models/callreprvertex",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/callreprvertex"
+                          },
+                          "description": "",
+                          "title": "CallReprVertex",
+                          "content": "<p>Call representation.<\/p>name\n<p>signature<\/p>\n<p><init><\/p>\n<p>Call representation.<\/p>\nequals\n<p>hashCode<\/p>\n<p>CallReprVertex<\/p>\n<p>Call representation.<\/p>\n"
+                        }]
+                      },
+                      "plumevertex": {
+                        "ownKey": "plumevertex",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/models/plumevertex",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/plumevertex"
+                          },
+                          "description": "",
+                          "title": "PlumeVertex",
+                          "content": "<p>A CFG vertex used by Plume vertex classes.<\/p>PlumeVertex\n<p>A CFG vertex used by Plume vertex classes.<\/p>\n"
+                        }]
+                      },
+                      "locallikevertex": {
+                        "ownKey": "locallikevertex",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/models/locallikevertex",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/locallikevertex"
+                          },
+                          "description": "",
+                          "title": "LocalLikeVertex",
+                          "content": "<p>Formal input parameters, locals, and identifiers.<\/p>name\n<p><init><\/p>\n<p>Formal input parameters, locals, and identifiers.<\/p>\nequals\n<p>hashCode<\/p>\n<p>LocalLikeVertex<\/p>\n<p>Formal input parameters, locals, and identifiers.<\/p>\n"
+                        }]
+                      },
+                      "trackingpoint": {
+                        "ownKey": "trackingpoint",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/models/trackingpoint",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/trackingpoint"
+                          },
+                          "description": "",
+                          "title": "TrackingPoint",
+                          "content": "<p>Any node that can occur in a data flow.<\/p><init>\n<p>Any node that can occur in a data flow.<\/p>\nequals\n\nTrackingPoint\n<p>Any node that can occur in a data flow.<\/p>\n"
+                        }]
+                      },
+                      "vertices": {
+                        "ownKey": "vertices",
+                        "childrenPages": {
+                          "typeparametervertex": {
+                            "ownKey": "typeparametervertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/typeparametervertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/typeparametervertex"
+                              },
+                              "description": "",
+                              "title": "TypeParameterVertex",
+                              "content": "<p>Type parameter of TYPE_DECL or METHOD.<\/p>name\n<p><init><\/p>\n<p>Type parameter of TYPE_DECL or METHOD.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>TypeParameterVertex<\/p>\n<p>Type parameter of TYPE_DECL or METHOD.<\/p>\n"
+                            }]
+                          },
+                          "typevertex": {
+                            "ownKey": "typevertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/typevertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/typevertex"
+                              },
+                              "description": "",
+                              "title": "TypeVertex",
+                              "content": "<p>A type which always has to reference a type declaration and may have type argument children if the referred to type\ndeclaration is a template<\/p>name\n<p>fullName<\/p>\n<p>typeDeclFullName<\/p>\n<p><init><\/p>\n<p>A type which always has to reference a type declaration and may have type argument children if the referred to type\ndeclaration is a template<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>TypeVertex<\/p>\n<p>A type which always has to reference a type declaration and may have type argument children if the referred to type\ndeclaration is a template<\/p>\n"
+                            }]
+                          },
+                          "methodrefvertex": {
+                            "ownKey": "methodrefvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/methodrefvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/methodrefvertex"
+                              },
+                              "description": "",
+                              "title": "MethodRefVertex",
+                              "content": "<p>Reference to a method instance.<\/p>methodInstFullName\n<p>methodFullName<\/p>\n<p><init><\/p>\n<p>Reference to a method instance.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>MethodRefVertex<\/p>\n<p>Reference to a method instance.<\/p>\n"
+                            }]
+                          },
+                          "methodparameterinvertex": {
+                            "ownKey": "methodparameterinvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/methodparameterinvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/methodparameterinvertex"
+                              },
+                              "description": "",
+                              "title": "MethodParameterInVertex",
+                              "content": "<p>This node represents a formal parameter going towards the callee side<\/p>code\n<p>evaluationStrategy<\/p>\n<p>typeFullName<\/p>\n<p>lineNumber<\/p>\n<p><init><\/p>\n<p>This node represents a formal parameter going towards the callee side<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>MethodParameterInVertex<\/p>\n<p>This node represents a formal parameter going towards the callee side<\/p>\n"
+                            }]
+                          },
+                          "localvertex": {
+                            "ownKey": "localvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/localvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/localvertex"
+                              },
+                              "description": "",
+                              "title": "LocalVertex",
+                              "content": "<p>A local variable.<\/p>code\n<p>typeFullName<\/p>\n<p>lineNumber<\/p>\n<p>columnNumber<\/p>\n<p><init><\/p>\n<p>A local variable.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>LocalVertex<\/p>\n<p>A local variable.<\/p>\n"
+                            }]
+                          },
+                          "blockvertex": {
+                            "ownKey": "blockvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/blockvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/blockvertex"
+                              },
+                              "description": "",
+                              "title": "BlockVertex",
+                              "content": "<p>A structuring block in the AST.<\/p>name\n<p>typeFullName<\/p>\n<p><init><\/p>\n<p>A structuring block in the AST.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>BlockVertex<\/p>\n<p>A structuring block in the AST.<\/p>\n"
+                            }]
+                          },
+                          "callvertex": {
+                            "ownKey": "callvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/callvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/callvertex"
+                              },
+                              "description": "",
+                              "title": "CallVertex",
+                              "content": "<p>A (method)-call.<\/p>methodFullName\n<p>argumentIndex<\/p>\n<p>dispatchType<\/p>\n<p>typeFullName<\/p>\n<p>dynamicTypeHintFullName<\/p>\n<p><init><\/p>\n<p>A (method)-call.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>CallVertex<\/p>\n<p>A (method)-call.<\/p>\n"
+                            }]
+                          },
+                          "literalvertex": {
+                            "ownKey": "literalvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/literalvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/literalvertex"
+                              },
+                              "description": "",
+                              "title": "LiteralVertex",
+                              "content": "<p>Literal/Constant.<\/p>name\n<p>typeFullName<\/p>\n<p><init><\/p>\n<p>Literal/Constant.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>LiteralVertex<\/p>\n<p>Literal/Constant.<\/p>\n"
+                            }]
+                          },
+                          "namespaceblockvertex": {
+                            "ownKey": "namespaceblockvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/namespaceblockvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/namespaceblockvertex"
+                              },
+                              "description": "",
+                              "title": "NamespaceBlockVertex",
+                              "content": "<p>A reference to a namespace.<\/p>name\n<p>fullName<\/p>\n<p><init><\/p>\n<p>A reference to a namespace.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>NamespaceBlockVertex<\/p>\n<p>A reference to a namespace.<\/p>\n"
+                            }]
+                          },
+                          "metadatavertex": {
+                            "ownKey": "metadatavertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/metadatavertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/metadatavertex"
+                              },
+                              "description": "",
+                              "title": "MetaDataVertex",
+                              "content": "<p>Node to save meta data about the graph on its properties. Exactly one node of this type per graph<\/p>language\n<p>version<\/p>\n<p><init><\/p>\n<p>Node to save meta data about the graph on its properties. Exactly one node of this type per graph<\/p>\ntoString\n<p>equals<\/p>\n<p>hashCode<\/p>\n<p>MetaDataVertex<\/p>\n<p>Node to save meta data about the graph on its properties. Exactly one node of this type per graph<\/p>\n"
+                            }]
+                          },
+                          "methodreturnvertex": {
+                            "ownKey": "methodreturnvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/methodreturnvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/methodreturnvertex"
+                              },
+                              "description": "",
+                              "title": "MethodReturnVertex",
+                              "content": "<p>A formal method return.<\/p>name\n<p>typeFullName<\/p>\n<p>evaluationStrategy<\/p>\n<p><init><\/p>\n<p>A formal method return.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>MethodReturnVertex<\/p>\n<p>A formal method return.<\/p>\n"
+                            }]
+                          },
+                          "controlstructurevertex": {
+                            "ownKey": "controlstructurevertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/controlstructurevertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/controlstructurevertex"
+                              },
+                              "description": "",
+                              "title": "ControlStructureVertex",
+                              "content": "<p>A control structure such as if, while, or for<\/p>name\n<p><init><\/p>\n<p>A control structure such as if, while, or for<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>ControlStructureVertex<\/p>\n<p>A control structure such as if, while, or for<\/p>\n"
+                            }]
+                          },
+                          "methodvertex": {
+                            "ownKey": "methodvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/methodvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/methodvertex"
+                              },
+                              "description": "",
+                              "title": "MethodVertex",
+                              "content": "<p>A method/function/procedure<\/p>name\n<p>fullName<\/p>\n<p>signature<\/p>\n<p><init><\/p>\n<p>A method/function/procedure<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>MethodVertex<\/p>\n<p>A method/function/procedure<\/p>\n"
+                            }]
+                          },
+                          "fieldidentifiervertex": {
+                            "ownKey": "fieldidentifiervertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/fieldidentifiervertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/fieldidentifiervertex"
+                              },
+                              "description": "",
+                              "title": "FieldIdentifierVertex",
+                              "content": "<p>A node that represents which field is accessed in a .fieldAccess, in e.g. obj.field. The CODE part is used\nfor human display and matching to MEM?BER nodes. The CANONICAL_NAME is used for dataflow tracking; typically both\ncoincide. However, suppose that two fields foo and bar are a C-style union; then CODE refers to whatever the\nprogrammer wrote (obj.foo or obj.bar), but both share the same CANONICAL_NAME (e.g. GENERATED_foo_bar)<\/p>canonicalName\n<p><init><\/p>\n<p>A node that represents which field is accessed in a .fieldAccess, in e.g. obj.field. The CODE part is used\nfor human display and matching to MEM?BER nodes. The CANONICAL_NAME is used for dataflow tracking; typically both\ncoincide. However, suppose that two fields foo and bar are a C-style union; then CODE refers to whatever the\nprogrammer wrote (obj.foo or obj.bar), but both share the same CANONICAL_NAME (e.g. GENERATED_foo_bar)<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>FieldIdentifierVertex<\/p>\n<p>A node that represents which field is accessed in a .fieldAccess, in e.g. obj.field. The CODE part is used\nfor human display and matching to MEM?BER nodes. The CANONICAL_NAME is used for dataflow tracking; typically both\ncoincide. However, suppose that two fields foo and bar are a C-style union; then CODE refers to whatever the\nprogrammer wrote (obj.foo or obj.bar), but both share the same CANONICAL_NAME (e.g. GENERATED_foo_bar)<\/p>\n"
+                            }]
+                          },
+                          "bindingvertex": {
+                            "ownKey": "bindingvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/bindingvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/bindingvertex"
+                              },
+                              "description": "",
+                              "title": "BindingVertex",
+                              "content": "<p>A binding of a METHOD into a TYPE_DECL<\/p>name\n<p>signature<\/p>\n<p><init><\/p>\n<p>A binding of a METHOD into a TYPE_DECL<\/p>\ntoString\n<p>equals<\/p>\n<p>hashCode<\/p>\n<p>BindingVertex<\/p>\n<p>A binding of a METHOD into a TYPE_DECL<\/p>\n"
+                            }]
+                          },
+                          "filevertex": {
+                            "ownKey": "filevertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/filevertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/filevertex"
+                              },
+                              "description": "",
+                              "title": "FileVertex",
+                              "content": "<p>Node representing a source file. Often also the AST root.<\/p>name\n<p><init><\/p>\n<p>Node representing a source file. Often also the AST root.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>FileVertex<\/p>\n<p>Node representing a source file. Often also the AST root.<\/p>\n"
+                            }]
+                          },
+                          "returnvertex": {
+                            "ownKey": "returnvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/returnvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/returnvertex"
+                              },
+                              "description": "",
+                              "title": "ReturnVertex",
+                              "content": "<p>A return instruction.<\/p><init>\n<p>A return instruction.<\/p>\nequals\n\ntoString\n\nReturnVertex\n<p>A return instruction.<\/p>\n"
+                            }]
+                          },
+                          "unknownvertex": {
+                            "ownKey": "unknownvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/unknownvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/unknownvertex"
+                              },
+                              "description": "",
+                              "title": "UnknownVertex",
+                              "content": "<p>A language-specific node.<\/p>typeFullName\n<p><init><\/p>\n<p>A language-specific node.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>UnknownVertex<\/p>\n<p>A language-specific node.<\/p>\n"
+                            }]
+                          },
+                          "membervertex": {
+                            "ownKey": "membervertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/membervertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/membervertex"
+                              },
+                              "description": "",
+                              "title": "MemberVertex",
+                              "content": "<p>Member of a class struct or union.<\/p>code\n<p>typeFullName<\/p>\n<p><init><\/p>\n<p>Member of a class struct or union.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>MemberVertex<\/p>\n<p>Member of a class struct or union.<\/p>\n"
+                            }]
+                          },
+                          "typedeclvertex": {
+                            "ownKey": "typedeclvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/typedeclvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/typedeclvertex"
+                              },
+                              "description": "",
+                              "title": "TypeDeclVertex",
+                              "content": "<p>A type declaration<\/p>name\n<p>fullName<\/p>\n<p>typeDeclFullName<\/p>\n<p><init><\/p>\n<p>A type declaration<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>TypeDeclVertex<\/p>\n<p>A type declaration<\/p>\n"
+                            }]
+                          },
+                          "typerefvertex": {
+                            "ownKey": "typerefvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/typerefvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/typerefvertex"
+                              },
+                              "description": "",
+                              "title": "TypeRefVertex",
+                              "content": "<p>Reference to a type/class.<\/p>typeFullName\n<p>dynamicTypeFullName<\/p>\n<p><init><\/p>\n<p>Reference to a type/class.<\/p>\nequals\n<p>hashCode<\/p>\n<p>TypeRefVertex<\/p>\n<p>Reference to a type/class.<\/p>\n"
+                            }]
+                          },
+                          "identifiervertex": {
+                            "ownKey": "identifiervertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/identifiervertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/identifiervertex"
+                              },
+                              "description": "",
+                              "title": "IdentifierVertex",
+                              "content": "<p>An arbitrary identifier/reference.<\/p>name\n<p>typeFullName<\/p>\n<p><init><\/p>\n<p>An arbitrary identifier/reference.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>IdentifierVertex<\/p>\n<p>An arbitrary identifier/reference.<\/p>\n"
+                            }]
+                          },
+                          "modifiervertex": {
+                            "ownKey": "modifiervertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/modifiervertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/modifiervertex"
+                              },
+                              "description": "",
+                              "title": "ModifierVertex",
+                              "content": "<p>A modifier, e.g., static, public, private<\/p>name\n<p><init><\/p>\n<p>A modifier, e.g., static, public, private<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>ModifierVertex<\/p>\n<p>A modifier, e.g., static, public, private<\/p>\n"
+                            }]
+                          },
+                          "arrayinitializervertex": {
+                            "ownKey": "arrayinitializervertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/arrayinitializervertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/arrayinitializervertex"
+                              },
+                              "description": "",
+                              "title": "ArrayInitializerVertex",
+                              "content": "<p>Initialization construct for arrays.<\/p><init>\n<p>Initialization construct for arrays.<\/p>\ntoString\n\nequals\n\nhashCode\n\nArrayInitializerVertex\n<p>Initialization construct for arrays.<\/p>\n"
+                            }]
+                          },
+                          "typeargumentvertex": {
+                            "ownKey": "typeargumentvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/typeargumentvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/typeargumentvertex"
+                              },
+                              "description": "",
+                              "title": "TypeArgumentVertex",
+                              "content": "<p>Argument for a TYPE_PARAMETER that belongs to a TYPE. It binds another TYPE to a TYPE_PARAMETER.<\/p><init>\n<p>Argument for a TYPE_PARAMETER that belongs to a TYPE. It binds another TYPE to a TYPE_PARAMETER.<\/p>\nequals\n\ntoString\n\nTypeArgumentVertex\n<p>Argument for a TYPE_PARAMETER that belongs to a TYPE. It binds another TYPE to a TYPE_PARAMETER.<\/p>\n"
+                            }]
+                          },
+                          "jumptargetvertex": {
+                            "ownKey": "jumptargetvertex",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://plume-oss.github.io/plume-driver",
+                                "fileName": "za/ac/sun/plume/domain/models/vertices/jumptargetvertex",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/jumptargetvertex"
+                              },
+                              "description": "",
+                              "title": "JumpTargetVertex",
+                              "content": "<p>A jump target made explicit in the code using a label.<\/p>name\n<p>argumentIndex<\/p>\n<p><init><\/p>\n<p>A jump target made explicit in the code using a label.<\/p>\nequals\n<p>hashCode<\/p>\n<p>toString<\/p>\n<p>JumpTargetVertex<\/p>\n<p>A jump target made explicit in the code using a label.<\/p>\n"
+                            }]
+                          }
+                        },
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/models/vertices",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices"
+                          },
+                          "description": "",
+                          "title": "za.ac.sun.plume.domain.models.vertices",
+                          "content": "<p>ArrayInitializerVertex<\/p>\n<p>Initialization construct for arrays.<\/p>\nBindingVertex\n<p>A binding of a METHOD into a TYPE_DECL<\/p>\nBlockVertex\n<p>A structuring block in the AST.<\/p>\nCallVertex\n<p>A (method)-call.<\/p>\nControlStructureVertex\n<p>A control structure such as if, while, or for<\/p>\nFieldIdentifierVertex\n<p>A node that represents which field is accessed in a .fieldAccess, in e.g. obj.field. The CODE part is used\nfor human display and matching to MEM?BER nodes. The CANONICAL_NAME is used for dataflow tracking; typically both\ncoincide. However, suppose that two fields foo and bar are a C-style union; then CODE refers to whatever the\nprogrammer wrote (obj.foo or obj.bar), but both share the same CANONICAL_NAME (e.g. GENERATED_foo_bar)<\/p>\nFileVertex\n<p>Node representing a source file. Often also the AST root.<\/p>\nIdentifierVertex\n<p>An arbitrary identifier/reference.<\/p>\nJumpTargetVertex\n<p>A jump target made explicit in the code using a label.<\/p>\nLiteralVertex\n<p>Literal/Constant.<\/p>\nLocalVertex\n<p>A local variable.<\/p>\nMemberVertex\n<p>Member of a class struct or union.<\/p>\nMetaDataVertex\n<p>Node to save meta data about the graph on its properties. Exactly one node of this type per graph<\/p>\nMethodParameterInVertex\n<p>This node represents a formal parameter going towards the callee side<\/p>\nMethodRefVertex\n<p>Reference to a method instance.<\/p>\nMethodReturnVertex\n<p>A formal method return.<\/p>\nMethodVertex\n<p>A method/function/procedure<\/p>\nModifierVertex\n<p>A modifier, e.g., static, public, private<\/p>\nNamespaceBlockVertex\n<p>A reference to a namespace.<\/p>\nReturnVertex\n<p>A return instruction.<\/p>\nTypeArgumentVertex\n<p>Argument for a TYPE_PARAMETER that belongs to a TYPE. It binds another TYPE to a TYPE_PARAMETER.<\/p>\nTypeDeclVertex\n<p>A type declaration<\/p>\nTypeParameterVertex\n<p>Type parameter of TYPE_DECL or METHOD.<\/p>\nTypeRefVertex\n<p>Reference to a type/class.<\/p>\nTypeVertex\n<p>A type which always has to reference a type declaration and may have type argument children if the referred to type\ndeclaration is a template<\/p>\nUnknownVertex\n<p>A language-specific node.<\/p>\n"
+                        }]
+                      },
+                      "expressionvertex": {
+                        "ownKey": "expressionvertex",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/models/expressionvertex",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/expressionvertex"
+                          },
+                          "description": "",
+                          "title": "ExpressionVertex",
+                          "content": "<p>Expression as a specialisation of tracking point.<\/p>argumentIndex\n<p><init><\/p>\n<p>Expression as a specialisation of tracking point.<\/p>\nequals\n<p>hashCode<\/p>\n<p>ExpressionVertex<\/p>\n<p>Expression as a specialisation of tracking point.<\/p>\n"
+                        }]
+                      },
+                      "plumegraph": {
+                        "ownKey": "plumegraph",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/models/plumegraph",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/plumegraph"
+                          },
+                          "description": "",
+                          "title": "PlumeGraph",
+                          "content": "<p>Represents a CPG where vertices are  PlumeVertex  instances and edges are categorized by their  EdgeLabel  under\na <a href=\"#\">HashMap<\/a> which then returns the source  PlumeVertex  and a <a href=\"#\">HashSet<\/a> of all  PlumeVertex s connected by the\n EdgeLabel .<\/p><init>\n<p>Represents a CPG where vertices are  PlumeVertex  instances and edges are categorized by their  EdgeLabel  under\na <a href=\"#\">HashMap<\/a> which then returns the source  PlumeVertex  and a <a href=\"#\">HashSet<\/a> of all  PlumeVertex s connected by the\n EdgeLabel .<\/p>\nvertices\n<p>Returns an immutable set of all the  PlumeVertex s in this graph.<\/p>\naddVertex\n<p>Adds a  PlumeVertex  to the graph.<\/p>\naddEdge\n<p>Creates an edge between two  PlumeVertex s in the graph.<\/p>\nedgesOut\n<p>Returns all the edges going out of the given  PlumeVertex .<\/p>\nedgesIn\n<p>Returns all the edges going into the given  PlumeVertex .<\/p>\ntoString\n\n"
+                        }]
+                      },
+                      "withinmethod": {
+                        "ownKey": "withinmethod",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/models/withinmethod",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/withinmethod"
+                          },
+                          "description": "",
+                          "title": "WithinMethod",
+                          "content": "<p>Any vertex that can exist in a method.<\/p><init>\n<p>Any vertex that can exist in a method.<\/p>\nequals\n\nhashCode\n\nWithinMethod\n<p>Any vertex that can exist in a method.<\/p>\n"
+                        }]
+                      },
+                      "cfgvertex": {
+                        "ownKey": "cfgvertex",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/models/cfgvertex",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/cfgvertex"
+                          },
+                          "description": "",
+                          "title": "CFGVertex",
+                          "content": "<p>Any vertex that can occur as part of a control flow graph.<\/p>lineNumber\n<p>columnNumber<\/p>\n<p>code<\/p>\n<p><init><\/p>\n<p>Any vertex that can occur as part of a control flow graph.<\/p>\nequals\n<p>hashCode<\/p>\n<p>CFGVertex<\/p>\n<p>Any vertex that can occur as part of a control flow graph.<\/p>\n"
+                        }]
+                      },
+                      "declarationvertex": {
+                        "ownKey": "declarationvertex",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/models/declarationvertex",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/declarationvertex"
+                          },
+                          "description": "",
+                          "title": "DeclarationVertex",
+                          "content": "<p>Declare a variable by specifying its data type and name.<\/p>name\n<p><init><\/p>\n<p>Declare a variable by specifying its data type and name.<\/p>\nequals\n<p>hashCode<\/p>\n<p>DeclarationVertex<\/p>\n<p>Declare a variable by specifying its data type and name.<\/p>\n"
+                        }]
+                      },
+                      "astvertex": {
+                        "ownKey": "astvertex",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/models/astvertex",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/astvertex"
+                          },
+                          "description": "",
+                          "title": "ASTVertex",
+                          "content": "<p>Any vertex that can exist in an abstract syntax tree.<\/p>order\n<p><init><\/p>\n<p>Any vertex that can exist in an abstract syntax tree.<\/p>\nequals\n<p>hashCode<\/p>\n<p>ASTVertex<\/p>\n<p>Any vertex that can exist in an abstract syntax tree.<\/p>\n"
+                        }]
+                      }
+                    },
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/domain/models",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models"
+                      },
+                      "description": "",
+                      "title": "za.ac.sun.plume.domain.models",
+                      "content": "<p>ASTVertex<\/p>\n<p>Any vertex that can exist in an abstract syntax tree.<\/p>\nCFGVertex\n<p>Any vertex that can occur as part of a control flow graph.<\/p>\nCallReprVertex\n<p>Call representation.<\/p>\nDeclarationVertex\n<p>Declare a variable by specifying its data type and name.<\/p>\nExpressionVertex\n<p>Expression as a specialisation of tracking point.<\/p>\nLocalLikeVertex\n<p>Formal input parameters, locals, and identifiers.<\/p>\nPlumeGraph\n<p>Represents a CPG where vertices are  PlumeVertex  instances and edges are categorized by their  EdgeLabel  under\na <a href=\"#\">HashMap<\/a> which then returns the source  PlumeVertex  and a <a href=\"#\">HashSet<\/a> of all  PlumeVertex s connected by the\n EdgeLabel .<\/p>\nPlumeVertex\n<p>A CFG vertex used by Plume vertex classes.<\/p>\nTrackingPoint\n<p>Any node that can occur in a data flow.<\/p>\nWithinMethod\n<p>Any vertex that can exist in a method.<\/p>\nza.ac.sun.plume.domain.models.vertices\n"
+                    }]
+                  },
+                  "exceptions": {
+                    "ownKey": "exceptions",
+                    "childrenPages": {
+                      "plumetransactionexception": {
+                        "ownKey": "plumetransactionexception",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/exceptions/plumetransactionexception",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/exceptions/plumetransactionexception"
+                          },
+                          "description": "",
+                          "title": "PlumeTransactionException",
+                          "content": "<p>Thrown to indicate a transaction related failure when attempting to create or commit a graph database transaction.<\/p><init>\n<p>Thrown to indicate a transaction related failure when attempting to create or commit a graph database transaction.<\/p>\n"
+                        }]
+                      },
+                      "plumeschemaviolationexception": {
+                        "ownKey": "plumeschemaviolationexception",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://plume-oss.github.io/plume-driver",
+                            "fileName": "za/ac/sun/plume/domain/exceptions/plumeschemaviolationexception",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/exceptions/plumeschemaviolationexception"
+                          },
+                          "description": "",
+                          "title": "PlumeSchemaViolationException",
+                          "content": "<p>Thrown when an invalid edge connection is attempted to be created between two  PlumeVertex s.<\/p><init>\n<p>Thrown when an invalid edge connection is attempted to be created between two  PlumeVertex s.<\/p>\n"
+                        }]
+                      }
+                    },
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/domain/exceptions",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/exceptions"
+                      },
+                      "description": "",
+                      "title": "za.ac.sun.plume.domain.exceptions",
+                      "content": "<p>PlumeSchemaViolationException<\/p>\n<p>Thrown when an invalid edge connection is attempted to be created between two  PlumeVertex s.<\/p>\nPlumeTransactionException\n<p>Thrown to indicate a transaction related failure when attempting to create or commit a graph database transaction.<\/p>\n"
+                    }]
+                  },
+                  "mappers": {
+                    "ownKey": "mappers",
+                    "childrenPages": {"vertexmapper": {
+                      "ownKey": "vertexmapper",
+                      "ownPages": [{
+                        "reference": {
+                          "path": "kotlindoc",
+                          "baseUrl": "https://plume-oss.github.io/plume-driver",
+                          "fileName": "za/ac/sun/plume/domain/mappers/vertexmapper",
+                          "extension": "html",
+                          "usePrettyUrl": true,
+                          "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/mappers/vertexmapper"
+                        },
+                        "description": "",
+                        "title": "VertexMapper",
+                        "content": "<p>Responsible for marshalling and unmarshalling vertex properties to and from  PlumeVertex  objects to Map objects.<\/p><init>\n<p>Responsible for marshalling and unmarshalling vertex properties to and from  PlumeVertex  objects to Map objects.<\/p>\nVertexMapper\n<p>Responsible for marshalling and unmarshalling vertex properties to and from  PlumeVertex  objects to Map objects.<\/p>\n"
+                      }]
+                    }},
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/domain/mappers",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/mappers"
+                      },
+                      "description": "",
+                      "title": "za.ac.sun.plume.domain.mappers",
+                      "content": "<p>VertexMapper<\/p>\n<p>Responsible for marshalling and unmarshalling vertex properties to and from  PlumeVertex  objects to Map objects.<\/p>\n"
+                    }]
+                  }
+                }
+              },
+              "drivers": {
+                "ownKey": "drivers",
+                "childrenPages": {
+                  "driverfactory": {
+                    "ownKey": "driverfactory",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/drivers/driverfactory",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/driverfactory"
+                      },
+                      "description": "",
+                      "title": "DriverFactory",
+                      "content": "<p>The factory responsible for obtaining the desired  IDriver .<\/p>invoke\n<p>Creates an  IDriver  based on the given  GraphDatabase .<\/p>\n"
+                    }]
+                  },
+                  "gremlindriver": {
+                    "ownKey": "gremlindriver",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/drivers/gremlindriver",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/gremlindriver"
+                      },
+                      "description": "",
+                      "title": "GremlinDriver",
+                      "content": "<p>The driver used by remote Gremlin connections.<\/p>graph\n<p>g<\/p>\n<p>supportsTransactions<\/p>\n<p>config<\/p>\n<p>The key-value configuration object used in creating the connection to the Gremlin server.<\/p>\nconnected\n<p>Indicates whether the driver is connected to the graph database or not.<\/p>\ntransactionOpen\n<p>Indicates if there is currently a transaction open or not.<\/p>\n<init>\n<p>The driver used by remote Gremlin connections.<\/p>\nconnect\n<p>Connects to the graph database with the given configuration.<\/p>\nopenTx\n<p>Starts a new traversal and opens a transaction if the database supports transactions.<\/p>\ncloseTx\n<p>Closes the current traversal and ends the current transaction if the database supports transactions.<\/p>\nclose\n<p>Attempts to close the graph database connection and resources.<\/p>\naddVertex\n<p>Inserts a vertex in the graph database.<\/p>\nexists\n<p>Checks if the given  PlumeVertex  exists in the database.<\/p>\nexists\n<p>Checks if there exists a directed edge of the given label between two  PlumeVertex  vertices.<\/p>\nfindVertexTraversal\n\naddEdge\n<p>Creates an edge with the label from enum  EdgeLabel  between two  PlumeVertex  vertices in the graph database.\nIf the given vertices are not already present in the database, they are created. If the edge already exists\nit wil not be recreated.<\/p>\nmaxOrder\n<p>Scans the AST vertices of the graph for the largest order property.<\/p>\nsetTraversalSource\n\nclearGraph\n<p>Clears the graph of all vertices and edges.<\/p>\ncreateVertex\n<p>Given a  PlumeVertex , creates a <a href=\"#\">Vertex<\/a> and translates the object's field properties to key-value\npairs on the <a href=\"#\">Vertex<\/a> object. This is then added to this driver's <a href=\"#\">Graph<\/a>.<\/p>\ngetWholeGraph\n<p>Returns the whole CPG as a  PlumeGraph  object. Depending on the size of the CPG, this may be very memory\nintensive.<\/p>\ngetMethod\n<p>Given the full signature of a method, returns the subgraph of the method body.<\/p>\ngetProgramStructure\n<p>Obtains all program structure related vertices.<\/p>\ngetNeighbours\n<p>Given a vertex, returns a  PlumeGraph  representation of neighbouring vertices.<\/p>\n"
+                    }]
+                  },
+                  "janusgraphdriver": {
+                    "ownKey": "janusgraphdriver",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/drivers/janusgraphdriver",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/janusgraphdriver"
+                      },
+                      "description": "",
+                      "title": "JanusGraphDriver",
+                      "content": "<p>The driver used to connect to a remote JanusGraph instance.<\/p>transactionRetryTime\n<p>maxRetries<\/p>\n<p><init><\/p>\n<p>The driver used to connect to a remote JanusGraph instance.<\/p>\nconnect\n<p>Connects to the graph database with the given configuration. Set  REMOTE_CONFIG  to the path of the\nremote-graph.properties configuration file. See <a href=\"https://docs.janusgraph.org/connecting/java/\">JanusGraph Documentation<\/a>.<\/p>\nremoteConfig\n<p>Sets the path of the remote-graph.properties configuration file.\nSee <a href=\"https://docs.janusgraph.org/connecting/java/\">JanusGraph Documentation<\/a>.<\/p>\nopenTx\n<p>Starts a new traversal and opens a transaction if the database supports transactions.<\/p>\ncloseTx\n<p>Closes the current traversal and ends the current transaction if the database supports transactions. If the\ntransaction fails, it will retry  maxRetries  times after  transactionRetryTime  milliseconds between attempts.<\/p>\nfindVertexTraversal\n<p>createVertex<\/p>\n<p>Given a  PlumeVertex , creates a <a href=\"#\">Vertex<\/a> and translates the object's field properties to key-value\npairs on the <a href=\"#\">Vertex<\/a> object. This is then added to this driver's <a href=\"#\">Graph<\/a>.<\/p>\nJanusGraphDriver\n<p>The driver used to connect to a remote JanusGraph instance.<\/p>\n"
+                    }]
+                  },
+                  "tinkergraphdriver": {
+                    "ownKey": "tinkergraphdriver",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/drivers/tinkergraphdriver",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/tinkergraphdriver"
+                      },
+                      "description": "",
+                      "title": "TinkerGraphDriver",
+                      "content": "<p>The driver used to connect to an in-memory TinkerGraph instance.<\/p><init>\n<p>The driver used to connect to an in-memory TinkerGraph instance.<\/p>\naddConfig\n<p>Add or update a <a href=\"#\">BaseConfiguration<\/a> key-value pair.<\/p>\nexportGraph\n<p>Export the currently connected graph to the given path. The extension of the file should be included and may only\nbe .xml, .json, or .kryo. If a graph file already exists it will be overwritten.<\/p>\nimportGraph\n<p>Imports a .xml, .json, or .kryo TinkerGraph file into the currently connected graph.<\/p>\n"
+                    }]
+                  },
+                  "tigergraphdriver": {
+                    "ownKey": "tigergraphdriver",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/drivers/tigergraphdriver",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/tigergraphdriver"
+                      },
+                      "description": "",
+                      "title": "TigerGraphDriver",
+                      "content": "<p>The driver used to connect to a remote TigerGraph instance.<\/p>hostname\n<p>The TigerGraph REST++ server hostname.<\/p>\nport\n<p>The TigerGraph REST++ server port number.<\/p>\nsecure\n<p>The TigerGraph REST++ server security status. Used for determining the protocol used between HTTPS or HTTP.<\/p>\nauthKey\n<p>The authorization key used for TigerGraph servers with token authorization turned on. This is placed under\nthe Authorization header when making requests.<\/p>\n<init>\n<p>The driver used to connect to a remote TigerGraph instance.<\/p>\nhostname\n<p>Set the hostname for the TigerGraph REST++ server.<\/p>\nport\n<p>Set the port for the TigerGraph REST++ server.<\/p>\nsecure\n<p>Sets the secure flag when building the API path.<\/p>\nauthKey\n<p>Sets the authorization token used in requests.<\/p><p>An example of where this is used is in\n<a href=\"https://docs-beta.tigergraph.com/cloud/tigergraph-cloud-faqs\">TigerGraph Cloud<\/a>.<\/p>\naddVertex\n<p>Inserts a vertex in the graph database.<\/p>\nexists\n<p>Checks if the given  PlumeVertex  exists in the database.<\/p>\nexists\n<p>Checks if there exists a directed edge of the given label between two  PlumeVertex  vertices.<\/p>\naddEdge\n<p>Creates an edge with the label from enum  EdgeLabel  between two  PlumeVertex  vertices in the graph database.\nIf the given vertices are not already present in the database, they are created. If the edge already exists\nit wil not be recreated.<\/p>\nmaxOrder\n<p>Scans the AST vertices of the graph for the largest order property.<\/p>\ngetWholeGraph\n<p>Returns the whole CPG as a  PlumeGraph  object. Depending on the size of the CPG, this may be very memory\nintensive.<\/p>\ngetMethod\n<p>Given the full signature of a method, returns the subgraph of the method body.<\/p>\ngetProgramStructure\n<p>Obtains all program structure related vertices.<\/p>\ngetNeighbours\n<p>Given a vertex, returns a  PlumeGraph  representation of neighbouring vertices.<\/p>\nclose\n\nclearGraph\n<p>Clears the graph of all vertices and edges.<\/p>\n"
+                    }]
+                  },
+                  "graphdatabase": {
+                    "ownKey": "graphdatabase",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/drivers/graphdatabase",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/graphdatabase"
+                      },
+                      "description": "",
+                      "title": "GraphDatabase",
+                      "content": "<p>The graph databases supported by Plume's  IDriver s.<\/p>TINKER_GRAPH\n<p>An in-memory graph database queried using Gremlin.<\/p>\nJANUS_GRAPH\n<p>An open-source graph database with various search engine and storage backend options. This is queried using\nGremlin.<\/p>\nTIGER_GRAPH\n<p>An enterprise graph database communicated over via REST and queried using GSQL.<\/p>\nNEPTUNE\n<p>Amazon Neptune is a fast, reliable graph database service that makes it easy to build and run applications that\nwork with highly connected datasets. This is queried using Gremlin.<\/p>\nNEO4J\n<p>Neo4j is the graph database platform powering mission-critical enterprise applications like artificial\nintelligence, fraud detection and recommendations.<\/p>\n"
+                    }]
+                  },
+                  "neptunedriver": {
+                    "ownKey": "neptunedriver",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/drivers/neptunedriver",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/neptunedriver"
+                      },
+                      "description": "",
+                      "title": "NeptuneDriver",
+                      "content": "<p>The driver used to connect to a remote Amazon Neptune instance.<\/p><init>\n<p>The driver used to connect to a remote Amazon Neptune instance.<\/p>\naddHostnames\n<p>Add one or more the addresses of a Gremlin Servers to the list of servers a Client will try to contact to send\nrequests to. The address should be parseable by InetAddress.getByName(String). That's the only validation\nperformed at this point. No connection to the host is attempted.<\/p>\nport\n<p>Set the port for the Neptune Gremlin server. Default port number is 8182.<\/p>\nkeyCertChainFile\n<p>Sets the certificate to use by the <a href=\"#\">Cluster<\/a>.<\/p>\nconnect\n<p>Connects to the graph database with the given configuration.\nSee <a href=\"https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-gremlin-java.html\">Amazon Documentation<\/a>.<\/p>\nclose\n<p>Attempts to close the graph database connection and resources.<\/p>\nfindVertexTraversal\n\ncreateVertex\n<p>Given a  PlumeVertex , creates a <a href=\"#\">Vertex<\/a> and translates the object's field properties to key-value\npairs on the <a href=\"#\">Vertex<\/a> object. This is then added to this driver's <a href=\"#\">Graph<\/a>.<\/p>\n"
+                    }]
+                  },
+                  "idriver": {
+                    "ownKey": "idriver",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/drivers/idriver",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/idriver"
+                      },
+                      "description": "",
+                      "title": "IDriver",
+                      "content": "<p>The minimal interface for all graph drivers.<\/p>addVertex\n<p>Inserts a vertex in the graph database.<\/p>\nexists\n<p>Checks if the given  PlumeVertex  exists in the database.<\/p>\nexists\n<p>Checks if there exists a directed edge of the given label between two  PlumeVertex  vertices.<\/p>\naddEdge\n<p>Creates an edge with the label from enum  EdgeLabel  between two  PlumeVertex  vertices in the graph database.\nIf the given vertices are not already present in the database, they are created. If the edge already exists\nit wil not be recreated.<\/p>\nmaxOrder\n<p>Scans the AST vertices of the graph for the largest order property.<\/p>\nclearGraph\n<p>Clears the graph of all vertices and edges.<\/p>\ngetWholeGraph\n<p>Returns the whole CPG as a  PlumeGraph  object. Depending on the size of the CPG, this may be very memory\nintensive.<\/p>\ngetMethod\n<p>Given the full signature of a method, returns the subgraph of the method body.<\/p>\ngetProgramStructure\n<p>Obtains all program structure related vertices.<\/p>\ngetNeighbours\n<p>Given a vertex, returns a  PlumeGraph  representation of neighbouring vertices.<\/p>\n"
+                    }]
+                  },
+                  "neo4jdriver": {
+                    "ownKey": "neo4jdriver",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://plume-oss.github.io/plume-driver",
+                        "fileName": "za/ac/sun/plume/drivers/neo4jdriver",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/neo4jdriver"
+                      },
+                      "description": "",
+                      "title": "Neo4jDriver",
+                      "content": "<p>The driver used to connect to a remote Neo4j instance.<\/p>database\n<p>The Neo4j server database name.<\/p>\nusername\n<p>The Neo4j server username.<\/p>\npassword\n<p>The Neo4j server password.<\/p>\nhostname\n<p>The Neo4j server hostname.<\/p>\nport\n<p>The Neo4j server port.<\/p>\n<init>\n<p>The driver used to connect to a remote Neo4j instance.<\/p>\ndatabase\n<p>Set the database name for the Neo4j server.<\/p>\nusername\n<p>Set the username for the Neo4j server.<\/p>\npassword\n<p>Set the password for the Neo4j server.<\/p>\nhostname\n<p>Set the hostname for the Neo4j server.<\/p>\nport\n<p>Set the port for the Neo4j server.<\/p>\nconnect\n<p>Connects to the graph database with the given configuration.<\/p>\nclose\n<p>Attempts to close the graph database connection and resources.<\/p>\nopenTx\n<p>Starts a new traversal and opens a transaction if the database supports transactions.<\/p>\ncloseTx\n<p>Closes the current traversal and ends the current transaction if the database supports transactions.<\/p>\nfindVertexTraversal\n\nmaxOrder\n<p>Scans the AST vertices of the graph for the largest order property.<\/p>\ncreateVertex\n<p>Given a  PlumeVertex , creates a <a href=\"#\">Vertex<\/a> and translates the object's field properties to key-value\npairs on the <a href=\"#\">Vertex<\/a> object. This is then added to this driver's <a href=\"#\">Graph<\/a>.<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://plume-oss.github.io/plume-driver",
+                    "fileName": "za/ac/sun/plume/drivers",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers"
+                  },
+                  "description": "",
+                  "title": "za.ac.sun.plume.drivers",
+                  "content": "<p>DriverFactory<\/p>\n<p>The factory responsible for obtaining the desired  IDriver .<\/p>\nGraphDatabase\n<p>The graph databases supported by Plume's  IDriver s.<\/p>\nGremlinDriver\n<p>The driver used by remote Gremlin connections.<\/p>\nIDriver\n<p>The minimal interface for all graph drivers.<\/p>\nJanusGraphDriver\n<p>The driver used to connect to a remote JanusGraph instance.<\/p>\nNeo4jDriver\n<p>The driver used to connect to a remote Neo4j instance.<\/p>\nNeptuneDriver\n<p>The driver used to connect to a remote Amazon Neptune instance.<\/p>\nTigerGraphDriver\n<p>The driver used to connect to a remote TigerGraph instance.<\/p>\nTinkerGraphDriver\n<p>The driver used to connect to an in-memory TinkerGraph instance.<\/p>\n"
+                }]
+              }
+            }
+          }}
+        }}
+      }}
+    }},
+    "ownPages": [{
+      "reference": {
+        "path": "kotlindoc",
+        "baseUrl": "https://plume-oss.github.io/plume-driver",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://plume-oss.github.io/plume-driver/kotlindoc"
+      },
+      "description": "",
+      "title": "README",
+      "content": "<h1 id=\"plume\"><a href=\"#plume\" id=\"plume\" class=\"anchor\"><\/a>Plume<\/h1>\n<p><a href=\"https://opensource.org/licenses/Apache-2.0\"><img src=\"https://img.shields.io/badge/License-Apache%202.0-blue.svg\" alt=\"License\" /><\/a>\n<a href=\"https://travis-ci.org/plume-oss/plume-driver\"><img src=\"https://travis-ci.org/plume-oss/plume-driver.svg?branch=develop\" alt=\"Build Status\" /><\/a>\n<a href=\"https://codecov.io/gh/plume-oss/plume-driver\"><img src=\"https://codecov.io/gh/plume-oss/plume-driver/branch/develop/graph/badge.svg\" alt=\"codecov\" /><\/a><\/p>\n<p>A Kotlin driver for the Plume library to provide an interface for connecting and writing to various graph databases based\non the <a href=\"https://github.com/ShiftLeftSecurity/codepropertygraph/blob/master/codepropertygraph/src/main/resources/schemas/base.json\">code-property graph schema<\/a>.<\/p>\n<p>For more documentation check out the <a href=\"https://plume-oss.github.io/plume-docs/\">Plume docs<\/a>.<\/p>\n<h2 id=\"building-from-source\"><a href=\"#building-from-source\" id=\"building-from-source\" class=\"anchor\"><\/a>Building from Source<\/h2>\n<p>In order to use Plume one will need to build from the source code. This will be the case until the Plume project\ncan be hosted on a Maven repository or similar.<\/p>\n<pre><code class=\"language-shell\">git clone https://github.com/plume-oss/plume-driver.git\ncd plume-driver\n./gradlew jar # For main artifact only\n./gradlew fatJar # For fat jar with dependencies\n<\/code><\/pre>\n<p>This will build <code>target/plume-driver-X.X.X[-all].jar<\/code> which is imported into your local project. E.g.<\/p>\n<pre><code class=\"language-mxml\">&lt;dependency&gt;\n  &lt;groupId&gt;za.ac.sun.plume&lt;/groupId&gt;\n  &lt;artifactId&gt;plume-driver&lt;/artifactId&gt;\n  &lt;version&gt;X.X.X&lt;/version&gt;\n  &lt;scope&gt;system&lt;/scope&gt;\n  &lt;systemPath&gt;${project.basedir}/lib/plume-driver-X.X.X.jar&lt;/systemPath&gt;\n&lt;/dependency&gt;\n<\/code><\/pre>\n<pre><code class=\"language-groovy\">repositories {\n    // ...\n    flatDir {\n        dirs 'lib'\n    }\n}\ndependencies {\n    // ...\n    implementation name: 'plume-driver-X.X.X'\n}\n<\/code><\/pre>\n<h2 id=\"dependencies\"><a href=\"#dependencies\" id=\"dependencies\" class=\"anchor\"><\/a>Dependencies<\/h2>\n<h3 id=\"packages\"><a href=\"#packages\" id=\"packages\" class=\"anchor\"><\/a>Packages<\/h3>\n<p>The following packages used by the Plume driver are:<\/p>\n<ul>\n<li><code>org.apache.logging.log4j:log4j-core:2.8.2<\/code><\/li>\n<li><code>org.apache.logging.log4j:log4j-slf4j-impl:2.8.2<\/code><\/li>\n<\/ul>\n<p>Dependencies per graph database technology connected to:<\/p>\n<ul>\n<li>\n<p><em>TinkerGraph<\/em><\/p>\n<p><code>org.apache.tinkerpop:gremlin-core:3.4.8<\/code><\/p>\n<p><code>org.apache.tinkerpop:tinkergraph-gremlin:3.4.8<\/code><\/p>\n<\/li>\n<li>\n<p><em>JanusGraph<\/em><\/p>\n<p><code>org.apache.tinkerpop:gremlin-core:3.4.8<\/code><\/p>\n<p><code>org.janusgraph:janusgraph-driver:0.5.2<\/code><\/p>\n<\/li>\n<li>\n<p><em>TigerGraph<\/em><\/p>\n<p><code>khttp:khttp:1.0.0<\/code><\/p>\n<\/li>\n<li>\n<p><em>Amazon Neptune<\/em><\/p>\n<p><code>org.apache.tinkerpop:gremlin-core:3.4.8<\/code><\/p>\n<p><code>org.apache.tinkerpop:gremlin-driver:3.4.8<\/code><\/p>\n<\/li>\n<li>\n<p><em>Neo4j<\/em><\/p>\n<p><code>org.apache.tinkerpop:gremlin-core:3.4.8<\/code><\/p>\n<p><code>com.steelbridgelabs.oss:neo4j-gremlin-bolt:0.4.4<\/code><\/p>\n<\/li>\n<\/ul>\n<p>It is not recommended using the fat jar in your project if using a build tool such as Ant, Maven, Gradle, etc. Rather,\nuse the main artifact and add the dependencies manually (in your <code>pom.xml<\/code>, <code>build.gradle<\/code>, etc.). Note that if you are\nconnecting to Neo4j, for example, you would not need the TinkerGraph, TigerGraph, etc. dependencies.<\/p>\n<h3 id=\"java-support\"><a href=\"#java-support\" id=\"java-support\" class=\"anchor\"><\/a>Java Support<\/h3>\n<p>The officially supported versions of Java are the following:<\/p>\n<ul>\n<li>OpenJDK 8<\/li>\n<li>OpenJDK 9<\/li>\n<li>OpenJDK 10<\/li>\n<li>OpenJDK 11<\/li>\n<\/ul>\n<h3 id=\"graph-database-support\"><a href=\"#graph-database-support\" id=\"graph-database-support\" class=\"anchor\"><\/a>Graph Database Support<\/h3>\n<p>Databases supported:<\/p>\n<ul>\n<li>TinkerGraph<\/li>\n<li>JanusGraph<\/li>\n<li>TigerGraph<\/li>\n<li>Amazon Neptune<\/li>\n<li>Neo4j<\/li>\n<\/ul>\n<h2 id=\"logging\"><a href=\"#logging\" id=\"logging\" class=\"anchor\"><\/a>Logging<\/h2>\n<p>All logging can be configured under <code>src/main/resources/log4j2.properties<\/code>. By default, all logs can be found under\n<code>/tmp/plume<\/code>.<\/p>\n"
+    }]
+  }},
+  "ownPages": [
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://plume-oss.github.io/plume-driver",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://plume-oss.github.io/plume-driver"
+      },
+      "description": "",
+      "title": "Home",
+      "content": "<p>Provides a type-safe interface for connecting and writing to various graph databases based on the code-property graph\nschema. This driver currently supports the following graph databases:<\/p>\n<ul>\n<li>TinkerGraph<\/li>\n<li>JanusGraph<\/li>\n<li>TigerGraph<\/li>\n<li>Amazon Neptune<\/li>\n<li>Neo4j<\/li>\n<\/ul>\n<p>The driver also provides methods such as <code>getWholeGraph<\/code>, <code>getNeighbours<\/code>, <code>getMethod<\/code>, etc. for reading the graph\ndatabase in the form of a <code>PlumeGraph<\/code> model.<\/p>\n"
+    },
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://plume-oss.github.io/plume-driver",
+        "fileName": "404",
+        "extension": "html",
+        "usePrettyUrl": false,
+        "link": "https://plume-oss.github.io/plume-driver/404.html"
+      },
+      "description": "",
+      "title": "Not Found",
+      "content": ""
+    }
+  ]
+}

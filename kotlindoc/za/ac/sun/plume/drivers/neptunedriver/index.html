@@ -1,0 +1,1383 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+
+
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.21.0"/>
+<link rel="icon" href="https://plume-oss.github.io/plume-driver/favicon.ico">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>NeptuneDriver</title>
+
+
+<meta name="description" content="Provides a type-safe interface for connecting and writing to various graph databases based on the code-property graph schema.">
+
+
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="https://plume-oss.github.io/plume-driver/Editorial/154151b8/assets/css/editorial_main.css"  />
+<link rel="stylesheet" type="text/css" href="https://plume-oss.github.io/plume-driver/Editorial/154151b8/assets/css/editorial_orchidCustomizations.css"  />
+<link rel="stylesheet" type="text/css" href="https://plume-oss.github.io/plume-driver/Editorial/154151b8/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://plume-oss.github.io/plume-driver/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://plume-oss.github.io/plume-driver/assets/css/orchidSourceDoc.css"  />
+<!-- end:inject styles -->
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.21.0","baseUrl":"https://plume-oss.github.io/plume-driver","environment":"prod","version":"0.0.1"};
+</script>
+
+
+    <!-- start:inject meta-components [head] -->
+    
+
+        
+            
+        
+
+        
+            
+        
+    
+    <!-- end:inject meta-components [head] -->
+
+
+
+    <!-- start:inject meta-components [head] -->
+    
+    <!-- end:inject meta-components [head] -->
+
+
+
+
+
+
+
+</head>
+<body class="is-loading">
+
+
+
+
+
+    <!-- start:inject meta-components [bodyStart] -->
+    
+
+        
+            
+        
+
+        
+    
+    <!-- end:inject meta-components [bodyStart] -->
+
+
+
+    <!-- start:inject meta-components [bodyStart] -->
+    
+    <!-- end:inject meta-components [bodyStart] -->
+
+
+
+
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            
+                <header id="header">
+    <a href="https://plume-oss.github.io/plume-driver" class="logo">Plume Driver</a>
+    <ul class="icons">
+    
+    
+        <li>
+            <a href="https://github.com/plume-oss/plume-driver" class="icon fa-github">
+                <span class="label">github</span>
+            </a>
+        </li>
+    
+    
+    </ul>
+</header>
+
+            
+            
+            
+            
+                <section id="pageContent">
+                    <header class="major"><h2>NeptuneDriver</h2></header>
+                    <article>
+                        
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="NeptuneDriver">
+
+
+  
+
+  
+    <div class="sourcedoc-section section-element" id="70915f7a884d3eefa7e42e115e5f9facb5a60408">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>class NeptuneDriver: GremlinDriver</code>
+      </p>
+
+      
+        
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>The driver used to connect to a remote Amazon Neptune instance.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="constructors">
+
+
+  <p class="sourcedoc-section section-name"><strong>Constructors</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="d4613aad3f43ed7d2b370aabe518d8516ff827ff">
+        <td class="sourcedoc-section section-signature">
+          <code>constructor()</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>The driver used to connect to a remote Amazon Neptune instance.</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="methods">
+
+
+  
+    <h2 class="sourcedoc-section section-name">Methods</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="80c9ed5d4fc725287533329e0b75981128bcb39e">
+      
+      <h3 class="sourcedoc-section element-name">addHostnames</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun addHostnames(vararg addresses: String): NeptuneDriver</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Add one or more the addresses of a Gremlin Servers to the list of servers a Client will try to contact to send
+requests to. The address should be parseable by InetAddress.getByName(String). That's the only validation
+performed at this point. No connection to the host is attempted.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="162304aaf7d51bc48f7f5bf1a7098258ffbf6f45">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="938fa630f18a1e59168cfadc4716a4008b8eecf9">
+        <td class="sourcedoc-section section-signature">
+          <code>vararg addresses: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>the address(es) of Gremlin Servers to contact.</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="93cc7ae6bda6deaca1355650e7a6d621b597c881">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b34b725985a00f068b9ee0605a4b7d5f5b7d3da3">
+        <td class="sourcedoc-section section-signature">
+          <code>NeptuneDriver</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="99143b69a71cd0ed65879e7d379b60c492fc66a7">
+      
+      <h3 class="sourcedoc-section element-name">port</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun port(port: Int): NeptuneDriver</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Set the port for the Neptune Gremlin server. Default port number is 8182.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="94543c330d71cd2747602a8877136178159e50eb">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="bfb4db6d43bec1ec2af93c3541f40fec76b5ae7c">
+        <td class="sourcedoc-section section-signature">
+          <code>port: Int</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>the port number e.g. 8182</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="39b0312b775606cde34b0534750306a40d45a166">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b34b725985a00f068b9ee0605a4b7d5f5b7d3da3">
+        <td class="sourcedoc-section section-signature">
+          <code>NeptuneDriver</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="0ab69e1b9660b7da117efffae9823c031aa93d25">
+      
+      <h3 class="sourcedoc-section element-name">keyCertChainFile</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun keyCertChainFile(keyChainFile: String): NeptuneDriver</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Sets the certificate to use by the <a href="#">Cluster</a>.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="719f464aed0d66a73243d09683fd280ca7ed264c">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="5671e0951c1cc8054985cf74a12f3fbebda9a0e5">
+        <td class="sourcedoc-section section-signature">
+          <code>keyChainFile: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>The X.509 certificate chain file in PEM format.</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="296ae25e67eab7021189a4fe5682dbac2a6cdc9d">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b34b725985a00f068b9ee0605a4b7d5f5b7d3da3">
+        <td class="sourcedoc-section section-signature">
+          <code>NeptuneDriver</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="25ca0636f14e2a332c7b39a0f26bc365daa5a755">
+      
+      <h3 class="sourcedoc-section element-name">connect</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun connect()</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Connects to the graph database with the given configuration.
+See <a href="https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-gremlin-java.html">Amazon Documentation</a>.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d91d954e973e107680e4d9212558a35da88f0a96">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="4c27f01d26d72614a93700ab579f81f1ee38be85">
+      
+      <h3 class="sourcedoc-section element-name">close</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun close()</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Attempts to close the graph database connection and resources.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c7803c40b95953ea15afb26f35ad7cdc0c9370f7">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="3f4cd33b03115cbaf95a169a28ae3ca01b606bcd">
+      
+      <h3 class="sourcedoc-section element-name">findVertexTraversal</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>protected fun findVertexTraversal(v: PlumeVertex): GraphTraversal<Vertex, Vertex>&lt;Vertex, Vertex&gt;</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="0e3b36fbae9eb706e5b30840c24496409db4dc5a">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="689bb254f4827e5df726059eaeded3b3071c4d84">
+        <td class="sourcedoc-section section-signature">
+          <code>v: PlumeVertex</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="f0bfb1b1bba97607ad7f8bc8e2dcbb3c4d137e35">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b15cc1710659ea50c8be013d285628cdb1c0ddff">
+        <td class="sourcedoc-section section-signature">
+          <code>GraphTraversal<Vertex, Vertex>&lt;Vertex, Vertex&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="5ce8276921f0e60cdd9a68abad675bfe2ed4956c">
+      
+      <h3 class="sourcedoc-section element-name">createVertex</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>protected fun createVertex(v: PlumeVertex): Vertex</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"><p>Given a PlumeVertex, creates a <a href="#">Vertex</a> and translates the object's field properties to key-value
+pairs on the <a href="#">Vertex</a> object. This is then added to this driver's <a href="#">Graph</a>.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="8e3947156600ac7bd9ece0ed01109dcef386a275">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="689bb254f4827e5df726059eaeded3b3071c4d84">
+        <td class="sourcedoc-section section-signature">
+          <code>v: PlumeVertex</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>the PlumeVertex to translate into a <a href="#">Vertex</a>.</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="510df37a6152cfeaedb0b7b691c121077b6e8050">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="e5648eccf2ada7509f9293bed38e65578d366748">
+        <td class="sourcedoc-section section-signature">
+          <code>Vertex</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>the newly created <a href="#">Vertex</a>.</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+
+
+
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+                    </article>
+                </section>
+            
+        </div>
+        <hr>
+
+        <!-- Page Footer -->
+        <div class="inner">
+    <footer id="footer">
+        <div class="clearfix">
+            
+            
+        </div>
+    </footer>
+</div>
+
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+    <div class="inner">
+
+        <!-- Search -->
+        <section id="search" class="alt">
+            <form data-orchid-search="">
+                <input type="text" name="query" id="query" placeholder="Search"/>
+            </form>
+            <div class="box" id="search-results" data-orchid-search-results style="display: none;">
+                <b>Search Results</b>
+                <ul></ul>
+            </div>
+            <div class="box" id="search-progress" data-orchid-search-progress style="display: none;">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <nav id="siteNav" class="menu">
+            <header class="major">
+                <h2>Plume Driver</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    
+    <li>
+        <a class="subheader">API Docs</a>
+    </li>
+    
+
+                
+                    
+    <li>
+        <span class="opener">Classes</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/astvertex">ASTVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/arrayinitializervertex">ArrayInitializerVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/bindingvertex">BindingVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/blockvertex">BlockVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/cfgvertex">CFGVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/callreprvertex">CallReprVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/callvertex">CallVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/controlstructurevertex">ControlStructureVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/declarationvertex">DeclarationVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/dispatchtype">DispatchType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/driverfactory">DriverFactory</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/edgelabel">EdgeLabel</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/evaluationstrategy">EvaluationStrategy</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/expressionvertex">ExpressionVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/fieldidentifiervertex">FieldIdentifierVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/filevertex">FileVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/graphdatabase">GraphDatabase</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/gremlindriver">GremlinDriver</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/idriver">IDriver</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/identifiervertex">IdentifierVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/janusgraphdriver">JanusGraphDriver</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/jumptargetvertex">JumpTargetVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/literalvertex">LiteralVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/locallikevertex">LocalLikeVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/localvertex">LocalVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/membervertex">MemberVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/metadatavertex">MetaDataVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/methodparameterinvertex">MethodParameterInVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/methodrefvertex">MethodRefVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/methodreturnvertex">MethodReturnVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/methodvertex">MethodVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/modifiertype">ModifierType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/modifiervertex">ModifierVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/namespaceblockvertex">NamespaceBlockVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/neo4jdriver">Neo4jDriver</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/neptunedriver">NeptuneDriver</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/plumegraph">PlumeGraph</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/exceptions/plumeschemaviolationexception">PlumeSchemaViolationException</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/exceptions/plumetransactionexception">PlumeTransactionException</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/plumevertex">PlumeVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/returnvertex">ReturnVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/tigergraphdriver">TigerGraphDriver</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers/tinkergraphdriver">TinkerGraphDriver</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/trackingpoint">TrackingPoint</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/typeargumentvertex">TypeArgumentVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/typedeclvertex">TypeDeclVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/typeparametervertex">TypeParameterVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/typerefvertex">TypeRefVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/typevertex">TypeVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices/unknownvertex">UnknownVertex</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/vertexbasetrait">VertexBaseTrait</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums/vertexlabel">VertexLabel</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/mappers/vertexmapper">VertexMapper</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/withinmethod">WithinMethod</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+                    
+    <li>
+        <span class="opener">Packages</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/enums">za.ac.sun.plume.domain.enums</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/exceptions">za.ac.sun.plume.domain.exceptions</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/mappers">za.ac.sun.plume.domain.mappers</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models">za.ac.sun.plume.domain.models</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/domain/models/vertices">za.ac.sun.plume.domain.models.vertices</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://plume-oss.github.io/plume-driver/kotlindoc/za/ac/sun/plume/drivers">za.ac.sun.plume.drivers</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+
+        <!-- Section -->
+        <section>
+            <p class="text-center">
+                Currently 0.0.1. Created with <a href="https://orchid.run">Orchid </a> and <b>Orchid Editorial Theme</b>.
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright text-center">&copy; Plume Driver. All rights reserved.<br>Design by <a href="https://html5up.net">HTML5 UP</a></p>
+        </footer>
+
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+
+    <!-- start:inject meta-components [bodyEnd] -->
+    
+
+        
+            
+        
+
+        
+    
+    <!-- end:inject meta-components [bodyEnd] -->
+
+
+
+    <!-- start:inject meta-components [bodyEnd] -->
+    
+    <!-- end:inject meta-components [bodyEnd] -->
+
+
+
+
+<!-- start:inject scripts -->
+<script  src="https://plume-oss.github.io/plume-driver/Editorial/154151b8/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script  src="https://plume-oss.github.io/plume-driver/Editorial/154151b8/ajax/libs/skel/3.0.1/skel.min.js"></script>
+<script  src="https://plume-oss.github.io/plume-driver/Editorial/154151b8/assets/js/editorial_util.js"></script>
+<script  src="https://plume-oss.github.io/plume-driver/Editorial/154151b8/assets/js/editorial_main.js"></script>
+<script  src="https://plume-oss.github.io/plume-driver/Editorial/154151b8/assets/js/editorial_orchidCustomizations.js"></script>
+<script  src="https://plume-oss.github.io/plume-driver/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script  src="https://plume-oss.github.io/plume-driver/lunr/lunr.js"></script>
+<script  src="https://plume-oss.github.io/plume-driver/assets/js/orchidSearch.js"></script>
+<!-- end:inject scripts -->
+
+
+</body>
+</html>

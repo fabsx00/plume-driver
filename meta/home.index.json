@@ -1,0 +1,31 @@
+{
+  "ownKey": "home",
+  "ownPages": [
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://plume-oss.github.io/plume-driver",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://plume-oss.github.io/plume-driver"
+      },
+      "description": "",
+      "title": "Home",
+      "content": "<p>Provides a type-safe interface for connecting and writing to various graph databases based on the code-property graph\nschema. This driver currently supports the following graph databases:<\/p>\n<ul>\n<li>TinkerGraph<\/li>\n<li>JanusGraph<\/li>\n<li>TigerGraph<\/li>\n<li>Amazon Neptune<\/li>\n<li>Neo4j<\/li>\n<\/ul>\n<p>The driver also provides methods such as <code>getWholeGraph<\/code>, <code>getNeighbours<\/code>, <code>getMethod<\/code>, etc. for reading the graph\ndatabase in the form of a <code>PlumeGraph<\/code> model.<\/p>\n"
+    },
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://plume-oss.github.io/plume-driver",
+        "fileName": "404",
+        "extension": "html",
+        "usePrettyUrl": false,
+        "link": "https://plume-oss.github.io/plume-driver/404.html"
+      },
+      "description": "",
+      "title": "Not Found",
+      "content": ""
+    }
+  ]
+}
