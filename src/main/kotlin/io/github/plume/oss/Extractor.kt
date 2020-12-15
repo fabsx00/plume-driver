@@ -216,16 +216,16 @@ class Extractor(val driver: IDriver, private val classPath: File) {
             return@map when (it) {
                 SupportedFile.JAVA ->
                     compileJavaFiles(filesToCompile)
-                            .apply { if (this.isNotEmpty()) driver.addVertex(MetaDataVertex("Java", System.getProperty("java.runtime.version"))) }
+                            .apply { if (this.isNotEmpty()) driver.addVertex(MetaDataVertex("Java-Plume", System.getProperty("java.runtime.version"))) }
                 SupportedFile.PYTHON ->
                     compilePythonFiles(filesToCompile)
-                            .apply { if (this.isNotEmpty()) driver.addVertex(MetaDataVertex("Python", "2.7.2")) }
+                            .apply { if (this.isNotEmpty()) driver.addVertex(MetaDataVertex("Python-Plume", "2.7.2")) }
                 SupportedFile.JAVASCRIPT ->
                     compileJavaScriptFiles(filesToCompile)
-                            .apply { if (this.isNotEmpty()) driver.addVertex(MetaDataVertex("JavaScript", "170")) }
+                            .apply { if (this.isNotEmpty()) driver.addVertex(MetaDataVertex("JavaScript-Plume", "170")) }
                 SupportedFile.JVM_CLASS ->
                     filesToCompile.map { cls -> cls as JVMClassFile }
-                            .apply { if (this.isNotEmpty()) driver.addVertex(MetaDataVertex("Java", System.getProperty("java.runtime.version"))) }
+                            .apply { if (this.isNotEmpty()) driver.addVertex(MetaDataVertex("Java-Plume", System.getProperty("java.runtime.version"))) }
             }
         }.asSequence().flatten().toHashSet()
     }
