@@ -17,5 +17,5 @@ gradle-app.setting
 .project
 .settings
 .classpath
-/src/test/resources/conf/SFSRootCAG2.pem
+/extractor/src/test/resources/conf/SFSRootCAG2.pem
 /sootOutput/
