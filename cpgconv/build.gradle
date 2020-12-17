@@ -11,7 +11,7 @@ repositories {
 dependencies {
     implementation "io.shiftleft:codepropertygraph_2.13:$cpgVersion"
     implementation "io.shiftleft:semanticcpg_2.13:$cpgVersion"
-    testImplementation "io.shiftleft:semanticcpgtests_2.13:$cpgVersion"
+    testCompile "io.shiftleft:semanticcpg-tests_2.13:$cpgVersion:tests"
     testImplementation 'org.scalatest:scalatest_2.13:3.1.1'
 }
 
